@@ -22,9 +22,11 @@ returns a ResponseEntity with a list of a sample JSON payload and the proper htt
 
 returns a ResponseEntity with a list of a sample JSON payload and the proper http code from hystrix enabled command endpoints desinged to fail
 
+#How to Test
+
 This app also has a test project that has a single MockMVC test that can be run as a jUnit test that will spit out logs that demonstrate the different behaviors and messaging that these implementations report.
 
-**Disclaimer**
+#Disclaimer
 This project should not be used in production.
 
 This project does not conform to pure rest standards.
