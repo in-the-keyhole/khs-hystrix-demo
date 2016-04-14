@@ -27,6 +27,19 @@ All of these endpoints can be tested from postman (a google chrome app) to see t
 
 This app also has a test project that has a single MockMVC test that can be run as a jUnit test that will spit out logs that demonstrate the different behaviors and messaging that these implementations report.
 
+#How to see metrics
+The hystrix stream and health endpoints are exposed for this app and can be accessed via the following endpoints:
+
+**http://{hostname}/api/health**
+
+**http://{hostname}/api/hystrix.stream**
+
+These can also be used in tandem with a hystrix dashboard to visualize the data and status of the app.  The repo for Hystrix Dashboard is:
+
+https://github.com/spring-cloud-samples/hystrix-dashboard.git
+
+
+
 #Disclaimer
 This project should not be used in production.
 
