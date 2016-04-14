@@ -23,6 +23,7 @@ returns a ResponseEntity with a list of a sample JSON payload and the proper htt
 returns a ResponseEntity with a list of a sample JSON payload and the proper http code from hystrix enabled command endpoints desinged to fail
 
 #How to Test
+All of these endpoints can be tested from postman (a google chrome app) to see the sample returns. To help ensure that failures are seen, these service are very unreliable. At random intervals every service throw an exception. To see how these behave it is most easily illustrated by having your Spring service console open so you can read the application logs on your screen, then right next to that (or on another monitor if you have one) exercise the endpoints in postman. Send several messages to each endpoint over and over again by clicking multiple times.  This will illustrate how normal failures would appear and how hystrix failures would appear.  
 
 This app also has a test project that has a single MockMVC test that can be run as a jUnit test that will spit out logs that demonstrate the different behaviors and messaging that these implementations report.
 
