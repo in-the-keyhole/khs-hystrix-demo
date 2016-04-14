@@ -1,5 +1,5 @@
 # khs-hystrix-demo
-Hystrix Demonstration Application
+Hystrix Demonstration Application, applies the Hystrix Circuit Breaker logic to example endpoints. Failures are baked into these example endpoints in order to demonstrate circuit breaker behaivor.
 
 #How To Use
 This is a simple example of a hystrix enabled Java Spring application. To properly use this - import into `STS Eclipse` as a `Maven` project,  and run the `com.example.config.AppConfig.java` as a Spring Boot Project.
