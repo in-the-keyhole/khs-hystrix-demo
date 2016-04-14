@@ -51,6 +51,8 @@ If you want more - please see the following links:
 
 https://github.com/Netflix/Hystrix
 
+http://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html
+
 https://github.com/Netflix/Hystrix/tree/master/hystrix-contrib/hystrix-javanica
 
 https://keyholesoftware.com/2016/02/01/hystrix-to-prevent-hysterix/ 
