@@ -2,7 +2,7 @@
 Hystrix Demonstration Application
 
 #How To Use
-This is a simple example of a hystrix enabled application. To properly use this - import it as a general project, then configure it as a maven project and run it as a spring boot project.
+This is a simple example of a hystrix enabled Java Spring application. To properly use this - import it as a general project, then configure it as a maven project and run it as a spring boot project.
 
 This app is a headless service that has the following endpoints:
 
